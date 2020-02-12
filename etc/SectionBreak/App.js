@@ -1,15 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 import Contens from "./components/Contens";
 import Menu from "./components/Menu";
 
-function App() {
-  return (
-    <div className="App">
-      <Contens></Contens>
-      <Menu></Menu>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Contens></Contens>
+        <Menu></Menu>
+      </div>
+    );
+  }
 }
 
 export default App;
