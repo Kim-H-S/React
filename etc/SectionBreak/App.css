@@ -1,0 +1,17 @@
+#contents {
+  position: fixed;
+  background-color: antiquewhite;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 6rem;
+}
+
+#footer {
+  position: fixed;
+  background-color: burlywood;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6rem;
+}
