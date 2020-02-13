@@ -1,3 +1,4 @@
+// 콘솔창에 입력한 것이 출력된다.
 import React, { Component } from "react";
 
 class EventPractice extends Component {
